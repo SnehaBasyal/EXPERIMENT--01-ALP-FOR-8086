@@ -53,7 +53,7 @@ HLT
 ## Output
 ![EXPERIMENT--01-ALP-FOR-8086](pmc1i.png) 
  
-## Subtraction   of 8 bit numbers  ALP 
+## Subtraction Of 8 bit numbers  ALP 
 ```
 MOV AL,84H
 MOV BL,63H
@@ -63,7 +63,7 @@ HLT
 ## Output
 ![EXPERIMENT--01-ALP-FOR-8086](pmc1ii.png)
 
-## Multiplication alp 
+## Multiplication Of 8 bit numbers  ALP 
 ```
 MOV AL,75H
 MOV BL,32H
@@ -73,7 +73,7 @@ HLT
 ## Output
 ![EXPERIMENT--01-ALP-FOR-8086](pmc1iii.png)
 
-## Division alp 
+## Division Of 8 bit numbers ALP 
 ```
 MOV AL,68H
 MOV BL,18H
@@ -82,6 +82,45 @@ HLT
 ```
 ## Output  
 ![EXPERIMENT--01-ALP-FOR-8086](pmc1iv.png)
+
+## AND Of 8 bit numbers  ALP  
+```
+MOV AL,33H
+MOV BL,44H
+AND AL,BL
+HLT
+```
+## Output  
+![EXPERIMENT--01-ALP-FOR-8086](pmcv.png)
+
+## OR Of 8 bit numbers  ALP  
+```
+MOV AL,45H
+MOV BL,66H
+OR AL,BL
+HLT
+```
+## Output  
+![EXPERIMENT--01-ALP-FOR-8086](pmc6.png)
+
+## XOR Of 8 bit numbers  ALP  
+```
+MOV AL,66H
+MOV BL,77H
+XOR AL,BL
+HLT
+```
+## Output  
+![EXPERIMENT--01-ALP-FOR-8086](pmc7.png)
+
+## NOT Of 8 bit numbers  ALP  
+```
+MOV AL,65H
+NOT AL
+HLT
+```
+## Output  
+![EXPERIMENT--01-ALP-FOR-8086](pmc8.png)
 
 ## Result:
 Thus to Write and execute ALP on fundamental arithmetic and logical operations are verified successfully.
